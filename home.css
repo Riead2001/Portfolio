@@ -1,0 +1,131 @@
+  <style>
+          body {
+              margin: 0;
+              padding: 0;
+              display: flex;
+              flex-direction: column;
+              background-color: #f4f4f4; /* Light gray background for the body */
+              color: #333; /* Dark text color */
+              font-family: Arial, sans-serif;
+          }
+
+          header {
+              background-color: #000; /* Black header background */
+              color: #fff; /* White text color */
+              padding: 20px 0;
+              text-align: center;
+          }
+
+          footer {
+              background-color: #000; /* Black footer background */
+              color: #fff; /* White text color */
+              padding: 10px 0;
+              text-align: center;
+              margin-top: auto; /* Footer sticks to the bottom */
+          }
+
+          main {
+              display: flex;
+              flex: 1;
+              padding: 20px;
+          }
+
+          section {
+              margin-bottom: 20px;
+              box-sizing: border-box;
+              padding: 20px;
+              width: 50%; /* Each section takes up 50% of the main container */
+          }
+
+          /* Left Side */
+          #left-side {
+              background-color: #666; /* Dark gray background for the left side */
+              color: #fff; /* White text color for the left side */
+          }
+
+          /* Right Side */
+          #right-side {
+              background-color: #fff; /* White background for the right side */
+          }
+
+          h2 {
+              color: #FFFFFF; /* Dark text color for section headings */
+          }
+          h3 {
+              color: #000; /* Dark text color for section headings */
+          }
+
+          p {
+              line-height: 1.6;
+          }
+
+          a {
+              color: #0066cc; /* Blue link color */
+              text-decoration: none;
+          }
+
+          a:hover {
+              text-decoration: underline;
+          }
+
+          .experience {
+              margin-bottom: 20px;
+          }
+          .timeline {
+              display: flex;
+              flex-direction: column;
+          }
+          .timeline-item {
+              position: relative;
+              padding: 20px;
+              border-left: 2px solid #3498db;
+              margin-bottom: 20px;
+          }
+          .timeline-item:last-child {
+              margin-bottom: 0;
+          }
+          .timeline-content {
+              margin-left: 20px;
+          }
+          .timeline-date {
+              position: absolute;
+              top: 10px;
+              left: -120px;
+              font-weight: bold;
+              color: #3498db;
+          }
+          blockquote {
+              color: black;
+              font-weight: bold;
+          }
+
+              
+      #education-section {
+          margin-top: 20px;
+      }
+
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 10px;
+      }
+
+      th, td {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+      }
+
+      th {
+          background-color: #000;
+      }
+      #image-section {
+      text-align: center;
+      position: relative;
+  }
+
+  #image-section img {
+      display: block;
+      margin: 0 auto;
+  }
+</style>
